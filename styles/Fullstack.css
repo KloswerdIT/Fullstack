@@ -1,0 +1,113 @@
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+/* Обнуление стилей */
+@font-face {
+	font-family: "Caveat";
+	src: url("/fonts/Caveat/ttf/Caveat-Regular.ttf") format("truetype"),
+		url("/fonts/Caveat/ttf/Caveat-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+body {
+	background-image: url("/images/background.png");
+}
+.block-header {
+	margin-top: -18px;
+	width: 100%;
+	height: 182px;
+	position: absolute;
+	background-color: rgba(55, 182, 159, 1);
+	opacity: 0.5;
+}
+.header-text ul {
+	list-style-type: none;
+	position: absolute;
+}
+
+.header-text li {
+	display: inline;
+}
+.header-text li a {
+	text-decoration: none;
+	color: aliceblue;
+	padding: 40px;
+	text-align: center;
+	font-family: "Caveat";
+	font-size: 80px;
+}
+.t0 {
+	position: absolute;
+	margin-top: 51px;
+	margin-left: 205px;
+}
+.t1 {
+	position: absolute;
+	margin-left: 520px;
+	margin-top: 40px;
+}
+.t2 {
+	position: absolute;
+	margin-left: 836px;
+	margin-top: 46px;
+}
+.block-header .header-text {
+	margin-top: 48px;
+	margin-left: 203px;
+}
+.logotip1 {
+	position: absolute;
+	margin-top: -10px;
+}
+.zagolovok {
+	position: absolute;
+	left: 270px;
+	top: 210px;
+	height: 200px;
+	font-family: Caveat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 79px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pervii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 420px;
+	margin-left: 40px;
+}
+.vtoroi {
+	position: absolute;
+	z-index: 2;
+	margin-top: 480px;
+	margin-left: 46px;
+}
+.tretii {
+	margin-top: 425px;
+	margin-left: 260px;
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	height: 50px;
+}
