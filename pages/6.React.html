@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="/styles/1.Nastroika.css" />
+	<title>Fullstack PRO</title>
+	<link rel="shortcut icon" href="../logotip.png" type="image/png" />
+</head>
+
+<body>
+	<img>
+	<header>
+		<div class="block-header"></div>
+		<img class="logotip1" src="../images/logotip1.png" />
+		<ul class="header-text">
+			<li class="t0"><a href="../Fullstack.html">Главная</a></li>
+			<li class="t1"><a href="#">Помощь</a></li>
+			<li class="t2"><a href="#">О курсе</a></li>
+		</ul>
+	</header>
+	<img src="../images/zagolovok.png" class="zagolovok" />
+
+	</div>
+
+	<img class="skull" src="../skull.gif" width="230" height="200"></img>
+
+	<div class="block1">
+		<article>Kloswerd:~$=▯...<br>
+			<strong>Глава 6.1 React</strong>
+			<br>React — это JavaScript-библиотека для разработки пользовательского интерфейса.
+			<br>Установка на Windows.
+			<br><a target="_blank" class="ssilka" href="https://nodejs.org/en/">https://nodejs.org/en/</a>
+			<div class="kartinka">
+				<br>Также скачаете
+				<br>Установка происходит в терминале:npx create-react-app firstproject
+				<br>cd firstproject
+				<br>npm start
+				<br>Установка на Linux.
+				<br>Установка на Android.
+				<br><br><strong>Глава 6.2 Инструменты React</strong>
+				<br>React виртуальное дерево DOM для оптимизации и отрисовки и является функциональным программированием
+				<br>Расширения для Chrome чтение кода react: React Developer Tools
+				<br>Проверка версии в терминале: node -v
+				<br>Есть сборщик npm но лучше использовать yarn(он очень быстрый)
+				<br>В терминале: npm install -g yarn
+				<br>Добавление пакетов и установка вместо npm install - yarn: yarn add имя_пакета
+				<br>Удаление зависимостей пакетов: yarn remove имя_пакета
+				<br>ES6 - const,let,{} условиях циклах внутри этих блоков не ограничивается можно везде,но с помощью let
+				можно ограничивать,${} и конкатенация,стрелочная функция возвращает вместо function return,this обратный
+				вызов, this с использованием метода лучше брать стрелочную функцию и зафиксировать оыбчной функцией
+				области
+				<br>Трансппиляция - чтобы проверить что ES6 нужно преобразование кода из ES6 в ES5 Babel
+				<br>Высший порядок манипулирвоать функциями первый порядок взаимодействовать функциями и декларативным
+				подходом(готовые методы имеет React)
+				<br><strong>Инструменты</strong>
+				<br>a)Менеджер пакетов, такой как Yarn или npm. Он позволяет вам использовать обширную экосистему сторонних
+				пакетов и легко устанавливать или обновлять их.
+				<br>b)Сборщик, такой как webpack или Parcel. Он позволяет писать модульный код и объединять его в небольшие
+				пакеты, чтобы оптимизировать время загрузки.
+				<br>c)1)Компилятор, такой как Babel(Трансппиляция). Он позволяет писать современный код JavaScript, который
+				будет работать даже в
+				старых браузерах.
+				<br>2)Полифил - добавление старого браузер
+				<br>d) Модульность и конфигурация css
+				<br><strong>Глава 6.3 CDN - поисковая выдача и оптимизации загрузки с нахождением ошибок
+					кеширования</strong>
+				<br>На стадии разработки:
+				<code><br>&ltscript crossorigin src="https://unpkg.com/react@17/umd/react.development.js" &lt/script&gt
+					<br>&ltscript crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js">&lt/script&gt</code>
+				<br>На стадии продакшена:
+				<br>&ltscript crossorigin src="https://unpkg.com/react@17/umd/react.production.js" &lt/script&gt
+				<br>&ltscript crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.js">&lt/script&gt
+				<br>RFC - спецификация и обновления https://github.com/reactjs/rfcs
+				<br>Обновить до последней версии : yarn upgrade react@next react-dom@next
+				<br>Привет мир
+				<br>ReactDOM.render(
+				&lth1&gtПривет, мир! &lt/h1&gt,
+				document.getElementById('root')
+				);
+				<br>В рендере отрисовка виртутального дерева DOM
+				<br>Глава 6.3 React все уроки
+				<br>{} - Вставка javascript выражения
+				<br>Выражения встраиваются друг другу и само выражение return h1 Здравствуй, {formatName(user)}!
+				<br> jsx (расширение языка js) другой стиль наименования class - className
+				<br> используются как аттрибут или дочерний элемент и для js функции
+				<br>Предотвращение атак инъекции кода
+				<br>JSX декларативно отрисует объекты без React.createElement
+				<br>ReactDOM.render() - рендерит элементы хоть где
+				<br>Тестировать на jest либо разбивать на компоновки для проверки
+				<br>1)Node хранит пакеты сервака для работы js и v8 движка приложения react
+				<br>2)Single page JSON и Ajax без перезагрузки без запроса сразу перенесет
+				<br>3)Компонента - функция возвращает jsx разметку
+				<br> Компонента - это тег отдельный
+				Header /
+				const Header()=>{}
+				<br>4)props свойства объекта что то хранящее для передачи аттрибутам ключ и значение
+				<Header name=”reki” /> const Header(props)=>{div…div}
+				И обращаемся в других тегах к этим аттрибутам <span>{props.name}</span>
+				const Header()=>{}
+				<br>5)map метод массива передача массива данных старого в новый для получения jsx элементов или компонентов
+				<br>6)Route маршрутизация по ссылкам на одной странице
+				<br>7)UI-BLL интерфейс пользователя взамоидействие и бизнес логика на разные файлы и папки разделили для
+				удобства и перенос данных по папкам как dialogs в index.Функция не должна работать с глобальными
+				объктами(state) а пропсами
+
+			</div>
+
+
+
+		</article>
+
+
+
+
+	</div>
+
+</body>
+
+</html>

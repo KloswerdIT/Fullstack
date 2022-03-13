@@ -111,3 +111,108 @@ body {
 	width: 60px;
 	height: 50px;
 }
+
+.chetvertii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 420px;
+	margin-left: 480px;
+}
+
+.pyatii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 520px;
+	margin-left: 490px;
+}
+.shestoi {
+	margin-top: 431px;
+	margin-left: 710px;
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	height: 50px;
+}
+.sedmoi {
+	position: absolute;
+	z-index: 1;
+	margin-top: 420px;
+	margin-left: 940px;
+}
+
+.vosmoi {
+	position: absolute;
+	z-index: 2;
+	margin-top: 520px;
+	margin-left: 960px;
+}
+.devyatii {
+	margin-top: 431px;
+	margin-left: 1170px;
+	position: absolute;
+	z-index: 3;
+	width: 60px;
+	height: 50px;
+}
+
+.desatii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 700px;
+	margin-left: 30px;
+}
+.odinacitii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 780px;
+	margin-left: 58px;
+}
+
+.dvenadcatii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 700px;
+	margin-left: 480px;
+}
+.trenadcatii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 760px;
+	margin-left: 540px;
+}
+.chetirnadcitii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 700px;
+	margin-left: 930px;
+}
+.pyatnadcatii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 780px;
+	margin-left: 960px;
+}
+.shestnadcatii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 950px;
+	margin-left: 30px;
+}
+.semnadcatii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 1050px;
+	margin-left: 58px;
+}
+.vosemnadcatii {
+	position: absolute;
+	z-index: 1;
+	margin-top: 950px;
+	margin-left: 478px;
+}
+.devyadnacatii {
+	position: absolute;
+	z-index: 2;
+	margin-top: 1050px;
+	margin-left: 510px;
+}
